@@ -11,7 +11,7 @@ const transactionsRouter = Router();
 const upload = multer(uploadCsvConfig);
 
 transactionsRouter.get('/', async (request, response) => {
-
+  debugger
   const transactionsRepository = getCustomRepository(TransactionsRepository);
   const transactions = await transactionsRepository.find();
   const balance = await transactionsRepository.getBalance();
