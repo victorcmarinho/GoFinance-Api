@@ -14,6 +14,9 @@ class Category {
 
   @UpdateDateColumn()
   updated_at: Date;
+
+  // @OneToMany(() => Transaction, transaction => transaction.category)
+  // transaction: Transaction;
 }
 
 export default Category;
