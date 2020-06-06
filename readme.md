@@ -1,11 +1,6 @@
 # GoFinance
 Api de controle de dinheiro depositos e retiradas
 
-# Resultado 🚀
-<p align="center">
-  <img src="./imgs/GoRestaurant.png" />
-</p>
-
 # Tecnologias Utilizadas 🚀
 Node  <br />
 Jest 🃏 <br />
